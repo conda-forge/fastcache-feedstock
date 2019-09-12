@@ -16,10 +16,10 @@ Current build status
 
 
 <table><tr>
-    <td>Appveyor</td>
+    <td>Travis</td>
     <td>
-      <a href="https://ci.appveyor.com/project/conda-forge/fastcache-feedstock/branch/master">
-        <img alt="windows" src="https://img.shields.io/appveyor/ci/conda-forge/fastcache-feedstock/master.svg?label=Windows">
+      <a href="https://travis-ci.org/conda-forge/fastcache-feedstock">
+        <img alt="macOS" src="https://img.shields.io/travis/conda-forge/fastcache-feedstock/master.svg?label=macOS">
       </a>
     </td>
   </tr>
@@ -36,6 +36,27 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
+              <td>linux_ppc64le_python2.7</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=290&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/fastcache-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_python2.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_ppc64le_python3.6</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=290&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/fastcache-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_python3.6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_ppc64le_python3.7</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=290&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/fastcache-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_python3.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>linux_python2.7</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=290&branchName=master">
@@ -104,7 +125,6 @@ Current build status
       </details>
     </td>
   </tr>
-![ppc64le disabled](https://img.shields.io/badge/ppc64le-disabled-lightgrey.svg)
 </table>
 
 Current release info
